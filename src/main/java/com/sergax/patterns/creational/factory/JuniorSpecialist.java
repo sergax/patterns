@@ -1,4 +1,4 @@
-package com.sergax.patterns.factory;
+package com.sergax.patterns.creational.factory;
 
 public class JuniorSpecialist implements Users{
 

@@ -1,9 +1,8 @@
-package com.sergax.patterns.factory;
+package com.sergax.patterns.creational.factory;
 
 import lombok.SneakyThrows;
 
 public class Main {
-
     public static void main(String[] args) {
         UsersFactory usersFactory = createUser("Junior");
         Users users = usersFactory.createUsers();
