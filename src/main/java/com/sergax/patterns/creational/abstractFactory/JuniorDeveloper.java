@@ -1,4 +1,4 @@
-package com.sergax.patterns.abstractFactory;
+package com.sergax.patterns.creational.abstractFactory;
 
 public interface JuniorDeveloper {
     void writeJuniorCode();

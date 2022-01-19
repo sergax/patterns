@@ -1,6 +1,6 @@
-package com.sergax.patterns.abstractFactory;
+package com.sergax.patterns.creational.abstractFactory;
 
-import com.sergax.patterns.abstractFactory.anotherCompony.XTeamFactory;
+import com.sergax.patterns.creational.abstractFactory.anotherCompony.XTeamFactory;
 
 public class EmployeeFromXCompany {
     public static void main(String[] args) {

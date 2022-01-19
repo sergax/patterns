@@ -1,6 +1,6 @@
-package com.sergax.patterns.abstractFactory.anotherCompony;
+package com.sergax.patterns.creational.abstractFactory.anotherCompony;
 
-import com.sergax.patterns.abstractFactory.MiddleDeveloper;
+import com.sergax.patterns.creational.abstractFactory.MiddleDeveloper;
 
 public class MiddleDeveloperInXCompany implements MiddleDeveloper {
     @Override

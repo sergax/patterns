@@ -1,6 +1,6 @@
-package com.sergax.patterns.abstractFactory.anotherCompony;
+package com.sergax.patterns.creational.abstractFactory.anotherCompony;
 
-import com.sergax.patterns.abstractFactory.JuniorDeveloper;
+import com.sergax.patterns.creational.abstractFactory.JuniorDeveloper;
 
 public class JuniorDeveloperInXCompany implements JuniorDeveloper {
     @Override

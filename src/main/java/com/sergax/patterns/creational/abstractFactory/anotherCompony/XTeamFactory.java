@@ -1,9 +1,9 @@
-package com.sergax.patterns.abstractFactory.anotherCompony;
+package com.sergax.patterns.creational.abstractFactory.anotherCompony;
 
-import com.sergax.patterns.abstractFactory.JuniorDeveloper;
-import com.sergax.patterns.abstractFactory.MiddleDeveloper;
-import com.sergax.patterns.abstractFactory.SeniorDeveloper;
-import com.sergax.patterns.abstractFactory.TeamFactory;
+import com.sergax.patterns.creational.abstractFactory.JuniorDeveloper;
+import com.sergax.patterns.creational.abstractFactory.MiddleDeveloper;
+import com.sergax.patterns.creational.abstractFactory.SeniorDeveloper;
+import com.sergax.patterns.creational.abstractFactory.TeamFactory;
 
 public class XTeamFactory implements TeamFactory {
     @Override
