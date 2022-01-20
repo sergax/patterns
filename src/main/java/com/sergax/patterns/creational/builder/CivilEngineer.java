@@ -6,13 +6,11 @@ import lombok.AllArgsConstructor;
 public class CivilEngineer {
     private HouseBuilder houseBuilder;
 
-    public House getHouse()
-    {
+    public House getHouse() {
         return this.houseBuilder.getHouse();
     }
 
-    public void constructHouse()
-    {
+    public void constructHouse() {
         this.houseBuilder.buildBasement();
         this.houseBuilder.buildStructure();
         this.houseBuilder.buildRoof();
