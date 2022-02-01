@@ -1,5 +1,8 @@
 package com.sergax.patterns.structural.facade;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class OrderFacade {
     private Kitchen kitchen;
     private Waiter waiter;
