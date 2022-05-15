@@ -1,24 +1,12 @@
 package com.sergax.patterns.structural.adapter;
 
+/**
+ * by Aksenchenko Serhii on 15.05.2022
+ */
 public class Main {
     public static void main(String[] args) {
-        Sparrow sparrow = new Sparrow();
-        // if we wanna change behaviour ToyDuck -> BirdAdapter
-        ToyDuck toyDuck = new PlasticToyDuck();
-
-        // Wrap a bird in a birdAdapter so that it
-        // behaves like toy duck
-        ToyDuck birdAdapter = new BirdAdapter(sparrow);
-
-        System.out.println("Sparrow...");
-        sparrow.fly();
-        sparrow.makeSound();
-
-        System.out.println("ToyDuck...");
-        toyDuck.squeak();
-
-        // toy duck behaving like a bird
-        System.out.println("BirdAdapter...");
-        birdAdapter.squeak();
+        CreditCard creditCard = new BankCustomer();
+        creditCard.giveBankDetails();
+        System.out.println(creditCard.getCreditCard());
     }
 }
