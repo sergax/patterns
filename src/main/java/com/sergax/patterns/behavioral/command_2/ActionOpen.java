@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class ActionOpen implements ActionListenerCommand {
     private Document doc;
-
     @Override
     public void execute() {
         doc.open();
